@@ -1,0 +1,18 @@
+{
+  "name": "Deep",
+  "version": "0.0.0",
+  "description": "Deep is a utility library for working with properties on nested objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node node_modules/mocha/bin/mocha -G --recursive --check-leaks --watch --reporter Spec"
+  },
+  "author": "Will McClellan",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
